@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container mx-auto p-5">
+        <!-- header -->
+        <header class="header flex justify-between">
+            <div class="header__left">
+                <span>9:41</span>
+            </div>
+            <div class="header__right">
+                <i class="fas fa-signal"></i>
+                <i class="fa fa-wifi" aria-hidden="true"></i>
+                <i class="fa fa-battery-full" aria-hidden="true"></i>
+
+            </div>
+        </header>
+        <!-- /header -->
+        <!-- address -->
+        <div class="address bg-gray-100 p-2 rounded-lg mt-3 flex justify-between">
+            <div class="address__left">
+                <span class="text-xs">A</span><span>A</span>
+            </div>
+            <div class="address__center text-green-300">
+                <i class="fas fa-lock"></i> duitmarket.com
+            </div>
+            <div class="address__right">
+                <i class="fas fa-redo-alt"></i>
+            </div>
+        </div>
+        <!-- /address -->
+        <br>
+        <hr py-4>
+        <!-- title -->
+        <div class="title py-5 p-5 flex justify-between">
+            <i class="fas fa-arrow-left"></i>
+            <h1 class="font-bold text-center">Asset</h1>
+            <div></div>
+        </div>
+        <!-- /title -->
+        <!-- search -->
+        <div class="search border border-gray-300 rounded-md p-2 flex justify-between">
+            <i class="fas fa-search text-xl pl-2 text-gray-500 my-3 "></i>
+            <!-- <span class="text-gray-500"> Search</span> -->
+            <input type="text" placeholder="Search"
+                class="text-gray-500 px-3 mx-3 focus:border-blue-300 rounded-md flex-grow border-0 focus:ring-0">
+            <i class="fas fa-sliders-h text-xl pr-2 my-3 text-gray-500"></i>
+        </div>
+        <!-- /search -->
+        <!-- tag -->
+        <div class="tag flex justify-between p-3">
+            <div class="tag__left bg-green-100 rounded-3xl p-3 font-bold">&nbsp;&nbsp;USD&nbsp;&nbsp;</div>
+            <div class="tag__center border border-gray-300 rounded-3xl p-3 font-bold hover:bg-green-100">24h Volume
+            </div>
+            <div class="tag__right border border-gray-300 rounded-3xl p-3 font-bold hover:bg-green-100">Popular</div>
+        </div>
+        <!-- /tag -->
+        <!-- crypto -->
+        <div class="crypto my-3 flex flex-col">
+            <div class="crypto__item1 flex justify-between my-2">
+                <div class="crypto__left flex">
+                    <img src="btc.png" alt="" class="border rounded-full mr-3">
+                    <div class="crypto__name flex flex-col justify-around p-2">
+                        <h2 class="font-bold">Bitcoin</h2>
+                        <h6 class="text-gray-400">BTC</h6>
+                    </div>
+                </div>
+                <div class="crypto__right flex flex-col justify-between items-end p-2">
+                    <h2 class="text-green-600 font-bold">$58,068.90</h2>
+                    <h6><i class="fas fa-caret-up text-green-600"></i><span class="text-gray-400 font-bold">2.55%</span>
+                    </h6>
+                </div>
+            </div>
+            <div class="crypto__item2 flex justify-between my-2">
+                <div class="crypto__left flex">
+                    <img src="eth.png" alt="" class="border rounded-full mr-3">
+                    <div class="crypto__name flex flex-col justify-around p-2">
+                        <h2 class="font-bold">Ethereum</h2>
+                        <h6 class="text-gray-400">ETH</h6>
+                    </div>
+                </div>
+                <div class="crypto__right flex flex-col justify-between items-end p-2">
+                    <h2 class="text-yellow-600 font-bold">$1,791.27</h2>
+                    <h6><i class="fas fa-caret-down text-yellow-600"></i><span
+                            class="text-gray-400 font-bold">4.27%</span>
+                    </h6>
+                </div>
+            </div>
+            <div class="crypto__item3 flex justify-between my-2">
+                <div class="crypto__left flex">
+                    <img src="xrp.png" alt="" class="border rounded-full mr-3">
+                    <div class="crypto__name flex flex-col justify-around p-2">
+                        <h2 class="font-bold">XRP</h2>
+                        <h6 class="text-gray-400">XRP</h6>
+                    </div>
+                </div>
+                <div class="crypto__right flex flex-col justify-between items-end p-2">
+                    <h2 class="text-green-600 font-bold">$0.445</h2>
+                    <h6><i class="fas fa-caret-up text-green-600"></i><span class="text-gray-400 font-bold">0.3%</span>
+                    </h6>
+                </div>
+            </div>
+            <div class="crypto__item4 flex justify-between my-2">
+                <div class="crypto__left flex">
+                    <img src="usdt.png" alt="" class="border rounded-full mr-3">
+                    <div class="crypto__name flex flex-col justify-around p-2">
+                        <h2 class="font-bold">Tether</h2>
+                        <h6 class="text-gray-400">USDT</h6>
+                    </div>
+                </div>
+                <div class="crypto__right flex flex-col justify-between items-end p-2">
+                    <h2 class="text-green-600 font-bold">$1.20</h2>
+                    <h6><i class="fas fa-caret-up text-green-600"></i><span class="text-gray-400 font-bold">0.2%</span>
+                    </h6>
+                </div>
+            </div>
+            <div class="crypto__item5 flex justify-between my-2">
+                <div class="crypto__left flex">
+                    <img src="bch.png" alt="" class="border rounded-full mr-3">
+                    <div class="crypto__name flex flex-col justify-around p-2">
+                        <h2 class="font-bold">Bitcoin Cash</h2>
+                        <h6 class="text-gray-400">BCH</h6>
+                    </div>
+                </div>
+                <div class="crypto__right flex flex-col justify-between items-end p-2">
+                    <h2 class="text-yellow-600 font-bold">$529.59</h2>
+                    <h6><i class="fas fa-caret-down text-yellow-600"></i><span
+                            class="text-gray-400 font-bold">2.7%</span>
+                    </h6>
+                </div>
+            </div>
+            <div class="crypto__item6 flex justify-between my-2">
+                <div class="crypto__left flex">
+                    <img src="link.png" alt="" class="border rounded-full mr-3">
+                    <div class="crypto__name flex flex-col justify-around p-2">
+                        <h2 class="font-bold">Chainlink</h2>
+                        <h6 class="text-gray-400">Link</h6>
+                    </div>
+                </div>
+                <div class="crypto__right flex flex-col justify-between items-end p-2">
+                    <h2 class="text-green-600 font-bold">$28.267</h2>
+                    <h6><i class="fas fa-caret-up text-green-600"></i><span class="text-gray-400 font-bold">4.0%</span>
+                    </h6>
+                </div>
+            </div>
+            <div class="crypto__item7 flex justify-between my-2">
+                <div class="crypto__left flex">
+                    <img src="ltc.png" alt="" class="border rounded-full mr-3">
+                    <div class="crypto__name flex flex-col justify-around p-2">
+                        <h2 class="font-bold">Litecoin</h2>
+                        <h6 class="text-gray-400">LTC</h6>
+                    </div>
+                </div>
+                <div class="crypto__right flex flex-col justify-between items-end p-2">
+                    <h2 class="text-green-600 font-bold">$208.07</h2>
+                    <h6><i class="fas fa-caret-up text-green-600"></i><span class="text-gray-400 font-bold">1.2%</span>
+                    </h6>
+                </div>
+            </div>
+        </div>
+        <!-- /crypto -->
+    </div>
+
+
+
+    <script src="https://unpkg.com/tailwindcss-jit-cdn"></script>
+</body>
+
+</html>
